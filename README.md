@@ -1,6 +1,11 @@
+
 # go-nebulas
 
 Official Go implementation of the Nebulas protocol.
+
+#本地调试已经被我调整为10s一个区块
+#首先启动master节点  ./neb -c conf/example/master_dev.conf
+#然后启动miner节点  ./neb -c conf/example/miner_dev.conf
 
 [![Build Status](https://travis-ci.org/nebulasio/go-nebulas.svg?branch=master)](https://travis-ci.org/nebulasio/go-nebulas)
 
